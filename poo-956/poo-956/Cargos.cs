@@ -1,4 +1,6 @@
-﻿public class Cargos
+﻿public enum Cargos
 {
-    
+    QA,
+    DEV,
+    PM
 }

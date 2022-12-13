@@ -21,10 +21,11 @@ public class Program
         {
             Nome = "Jose Augusto",
             Idade = 20,
-            Cargo.PM
+            // atribuindo ao cargo que é uma propriedade da classe algum valor declaro no ENUM
+            Cargo = Cargos.DEV
 
         };
 
-        Console.WriteLine(pessoa1.Idade);
+        Console.WriteLine(pessoa1.Cargo);
     }
 }
