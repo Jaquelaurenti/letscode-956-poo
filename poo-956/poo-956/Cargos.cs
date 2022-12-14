@@ -1,6 +1,6 @@
 ﻿public enum Cargos
 {
-    QA,
-    DEV,
+    QA = 1,
+    DEV = 2,
     PM
 }
