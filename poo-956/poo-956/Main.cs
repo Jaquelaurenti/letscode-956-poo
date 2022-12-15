@@ -1,9 +1,11 @@
 ﻿
+using static Atributos;
+
 public class Program
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("Iniciando nossas aulas de POO");
+        /*Console.WriteLine("Iniciando nossas aulas de POO");
 
         // Instanciando a classe pessoa
         // Criando uma varia do tipo Pessoa
@@ -28,8 +30,18 @@ public class Program
         };
 
         pessoa1.Sobrenome = "Laurenti";
-        
 
-        Console.WriteLine(pessoa1.DataCriação.ToString());
+        Console.WriteLine(pessoa1.DataCriação.ToString());*/
+
+        ////////////////////////////////
+        ///// Testando os atributos
+        ///
+
+        Console.WriteLine("Iniciando os testes do atributo personalizado");
+        // instanciei a classe de teste de atributos
+        TestarAtributos testarAtributos = new TestarAtributos();
+        // invocar o método que testa o atributo
+        testarAtributos.ExecutaTeste();
+
     }
 }

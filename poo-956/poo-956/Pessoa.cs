@@ -1,10 +1,15 @@
-﻿public class Pessoa
+﻿using System.ComponentModel.DataAnnotations;
+
+public class Pessoa
 {
     // para determinar o ACESSO a propriedade: MODIFICADOR DE ACESSO (public, private)
     // para determinar a VISUALIZAÇÃO do valor a propriedade: GET
 
     // Criar as propriedades que compoem a classe Pessoa
+    [Required(ErrorMessage ="campo obrigatório")]
     public string Nome { get; set; }
+
+    [Required]
     public int Idade { get; set; }
 
     // UTILIZAMOS O GET, para conseguirmos visualizar o estado da prorpiedade da classe
