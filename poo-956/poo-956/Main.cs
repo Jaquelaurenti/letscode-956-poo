@@ -82,8 +82,10 @@ public class Program
         // Construtor de Uma instrução
         // Neste exemplo o construtor está recebendo apenas UM PARÂMETRO
         ConstrutoresDeUmaInstrucao cdum = new ConstrutoresDeUmaInstrucao("JaqueConstrutor");
-        Console.WriteLine("Resultado da instancia: " + cdum.NomePublico);
+        Console.WriteLine("------------Resultado do acesso a propriedade---------------");
+        Console.WriteLine(cdum.NomePublico);
 
+        Console.WriteLine("------------modificando o valor da propriedade publica---------------");
         cdum.NomePublico = "Joaozinho";
         Console.WriteLine(cdum.NomePublico);
 
