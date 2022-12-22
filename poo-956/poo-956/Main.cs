@@ -81,14 +81,47 @@ public class Program
 
         // Construtor de Uma instrução
         // Neste exemplo o construtor está recebendo apenas UM PARÂMETRO
-        ConstrutoresDeUmaInstrucao cdum = new ConstrutoresDeUmaInstrucao("JaqueConstrutor");
+        /*ConstrutoresDeUmaInstrucao cdum = new ConstrutoresDeUmaInstrucao("JaqueConstrutor");
+
+
         Console.WriteLine("------------Resultado do acesso a propriedade---------------");
         Console.WriteLine(cdum.NomePublico);
 
         Console.WriteLine("------------modificando o valor da propriedade publica---------------");
         cdum.NomePublico = "Joaozinho";
-        Console.WriteLine(cdum.NomePublico);
+        Console.WriteLine(cdum.NomePublico);*/
 
+
+        // iniciando construtor conta
+
+        //Conta conta = new Conta(12346);
+        //Console.WriteLine(conta.NumeroConta);
+
+        //conta.NumeroConta = 333;
+
+        /*ContaCorrente contaCorrente = new ContaCorrente(4943,01111);
+        Console.WriteLine("Conta Corrente:");
+        Console.WriteLine(contaCorrente.NumeroConta);
+        contaCorrente.Depositar(250.00, "ContaCorrente");
+        Console.WriteLine(contaCorrente.SaldoConta);*/
+
+        ClassificacaoAve classificacao = new(1, "Passeriformes");
+
+        Papagaio papagaio = new Papagaio(9999);
+        Console.WriteLine(papagaio.NumeroRegistroIbama);
+
+        papagaio.Classificacao = classificacao;
+        papagaio.Cor = "Verde";
+        papagaio.Falar = true;
+        papagaio.TipoBico = "Generalista";
+
+        Console.WriteLine(papagaio.Bicar());
+        Console.WriteLine(papagaio.Voar(false));
+        Console.WriteLine(papagaio.Classificacao.Id);
+        Console.WriteLine( papagaio.Cor);
+        Console.WriteLine(papagaio.Classificacao.Classificacao);
 
     }
 }
+
+

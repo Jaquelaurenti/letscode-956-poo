@@ -1,20 +1,36 @@
 ﻿<Properties StartupConfiguration="{A1D443BC-C7FE-4E6D-B2FB-BF6151A05357}|Default">
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.poo-956 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.poo-956 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Papagaio.cs">
+    <Files>
+      <File FileName="Conta.cs" Line="21" Column="39" />
+      <File FileName="Main.cs" Line="121" Column="40" />
+      <File FileName="ContaCorrente.cs" Line="47" Column="45" />
+      <File FileName="Pessoa.cs" Line="19" Column="5" />
+      <File FileName="ClassificacaoAve.cs" Line="9" Column="43" />
+      <File FileName="Papagaio.cs" Line="1" Column="28" />
+      <File FileName="Ave.cs" Line="15" Column="6" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="poo-956" expanded="True">
-            <Node name="poo-956" expanded="True" />
+            <Node name="poo-956" expanded="True">
+              <Node name="Ave.cs" selected="True" />
+            </Node>
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State name="__root__">
+          <Node name="poo-956" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
