@@ -1,7 +1,8 @@
 ﻿public abstract class Ave
 {
-    public string Nome { get; set; }
-    public string TipoBico { get; set; }
+    public int IdAve { get; set; }
+    public string Nome { get; set; } // ESTADO
+    public string TipoBico { get; set; } // ESTADO
     public int NumeroRegistroIbama { get; private set; }
     public ClassificacaoAve Classificacao { get; set; }
 
@@ -16,7 +17,7 @@
         this.NumeroRegistroIbama = numero;
     }
 
-    public string Voar()
+    public string Voar() // VOAR
     {
         return "Ave voando na classe abstrata!";
     }

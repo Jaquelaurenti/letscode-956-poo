@@ -107,7 +107,15 @@ public class Program
 
         ClassificacaoAve classificacao = new(1, "Passeriformes");
 
-        Papagaio papagaio = new Papagaio(9999);
+
+        // iNSTANCIA = objeto
+
+
+
+        /*Papagaio papagaio = new Papagaio(9999);
+        Papagaio verdinho = new Papagaio(9999);
+        
+
         Console.WriteLine(papagaio.NumeroRegistroIbama);
 
         papagaio.Classificacao = classificacao;
@@ -119,9 +127,19 @@ public class Program
         Console.WriteLine(papagaio.Voar(false));
         Console.WriteLine(papagaio.Classificacao.Id);
         Console.WriteLine( papagaio.Cor);
-        Console.WriteLine(papagaio.Classificacao.Classificacao);
+        Console.WriteLine(papagaio.Classificacao.Classificacao);*/
+
+        Conta conta1 = new Conta(123);
+        Conta conta2 = new Conta(1234);
+        Conta conta3 = new Conta(1235);
+        Conta conta4 = new Conta(1236);
+
+        conta4.tarifaManutencao();
+
+        conta3.tarifaManutencao();
 
     }
+   
 }
 
 
